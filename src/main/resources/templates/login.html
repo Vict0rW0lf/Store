@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Login</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		body {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+		.margin5px {margin-bottom:5px;}
+	</style>
+</head>
+<body>
+	<form action="#" th:action="@{/login}" th:object="${login}" method="post">
+	    <label class="margin5px" for="userName">Username</label>
+	    </br>
+	    <input class="margin5px" type="text" th:field="*{userName}" id="userName" placeholder="Type in your username">
+	    </br>
+	    <label class="margin5px" for="password">Password</label>
+	    </br>
+	    <input class="margin5px" type="text" th:field="*{password}" id="password" placeholder="Type in your password">
+	    </br>
+	    <input type="submit" class="btn btn-primary">     
+	</form>
+</body>
+</html>
