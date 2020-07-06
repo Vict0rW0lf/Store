@@ -98,13 +98,13 @@ POST /api/orders
 To authenticate a client in the website you can use a browser.
 Submit a request to /login. You should make sure the username and password are correct.
 
-![Optional Text](images/1T19SSp.png)
+![Optional Text](https://github.com/diowolf/Store/blob/master/images/1T19SSp.png?raw=true)
 
 The password is stored in the database with an MD5 algorithm, but to authenticate you should use the password without encryption.
 
 After successfully authenticating you should be able to see all the user's orders and as well as his info.
 
-![Optional Text](images/94Y4GKG.png)
+![Optional Text](https://github.com/diowolf/Store/blob/master/images/94Y4GKG.png?raw=true)
 
 #### Docker 
 
