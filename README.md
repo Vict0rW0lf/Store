@@ -50,7 +50,7 @@ Note: you should use data that is stored in the database in order to create an o
 
 To retrieve data from the database these are the endpoints:
 
-````
+```
 GET /api/clients/all
 GET /api/products/all
 GET /api/orders/all
